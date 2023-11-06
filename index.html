@@ -257,6 +257,12 @@
                 feather.replace();
             </script>
             <script src="assets/js/theme.js"></script>
+            <!--Disable right click-->
+            <script>
+                document.addEventListener("contextmenu", (event) => {
+                    event.preventDefault();
+                });
+            </script>
 
             <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&amp;display=swap" rel="stylesheet">
         </div>
